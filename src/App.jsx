@@ -5,7 +5,7 @@ import SignUp from './signup/signup'
 import NavBar from './navbar/NavBar'
 import HomePage from './home/HomePage'
 import ContactUs from './contactus/ContactUs'
-
+import Payment from './pay/PaymentPage'
 function App() {
  
   return (
@@ -17,6 +17,7 @@ function App() {
     <Route path='/login' element={<Login/>} />
     <Route path='/sign' element={<SignUp/>} />
     <Route path='/contact' element={<ContactUs/>} />
+    <Route path='/pay' element={<Payment/>}/>
 
    </Routes>
   

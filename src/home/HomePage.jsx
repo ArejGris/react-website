@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="row">
             <div className="col-5 login">
                 <h1>welcome</h1>
-                <form >
+                <form className="form1">
                     <h2>log in</h2>
                     <div className="form-group">
                         <input type="text" />
