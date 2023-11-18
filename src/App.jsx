@@ -4,6 +4,7 @@ import Login from './login/login'
 import SignUp from './signup/signup'
 import NavBar from './navbar/NavBar'
 import HomePage from './home/HomePage'
+import ContactUs from './contactus/ContactUs'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
     <Route path='/' element={<HomePage/>}/>
     <Route path='/login' element={<Login/>} />
     <Route path='/sign' element={<SignUp/>} />
+    <Route path='/contact' element={<ContactUs/>} />
 
    </Routes>
   
