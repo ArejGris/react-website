@@ -5,9 +5,9 @@ import SignUp from './signup/signup'
 import NavBar from './navbar/NavBar'
 import HomePage from './home/HomePage'
 import ContactUs from './contactus/ContactUs'
-import Payment from './pay/PaymentPage'
+import PaymentPage from './pay/PaymentPage'
+import Payment from './upi/Payment'
 function App() {
- 
   return (
     <div className="app">
        <BrowserRouter>
@@ -17,15 +17,11 @@ function App() {
     <Route path='/login' element={<Login/>} />
     <Route path='/sign' element={<SignUp/>} />
     <Route path='/contact' element={<ContactUs/>} />
-    <Route path='/pay' element={<Payment/>}/>
-
+    <Route path='/pay' element={<PaymentPage/>}/>
+    <Route path='/payui' element={<Payment/>} />
    </Routes>
-  
    </BrowserRouter>
-
     </div>
-  
   )
 }
-
 export default App

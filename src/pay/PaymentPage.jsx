@@ -2,6 +2,7 @@ import img5 from '../assets/rowan-heuvel-sAB4BWrQ4Y4-unsplash 1 (6).png'
 import iconimg1 from '../assets/icons/icon _MasterCard icon_.png'
 import iconimg2 from '../assets/icons/icon _Visa icon_.png'
 import './pay.css'
+import { Link } from 'react-router-dom'
 const Payment = () => {
     return ( <>
     <div className="container-fluid">
@@ -40,7 +41,7 @@ const Payment = () => {
                     </div>
 
                 </form>
-                <p>Or pay with <span>Paytm & UPI </span>  </p>
+                <p>Or pay with <Link to="/payui" className='link'>Paytm & UPI </Link>  </p>
 
                 </div>
                 

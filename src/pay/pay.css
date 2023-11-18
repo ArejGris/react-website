@@ -96,3 +96,7 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
 }
+a.link{
+    color: #B88E57;
+    text-decoration: none;
+}
