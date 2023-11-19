@@ -4,7 +4,7 @@
     height: 100vh;
     background-color: #FFF4E5B5;
 }
-.row{
+.row.pay{
  height: 100%;
 }
 .credit{

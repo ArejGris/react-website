@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Payment = () => {
     return ( <>
     <div className="container-fluid">
-        <div className="row">
+        <div className="row pay">
             <div className="col-5">
                 <div className="credit">
                     <img src={img5} alt="" />

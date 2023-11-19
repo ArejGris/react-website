@@ -7,7 +7,7 @@ import icon4 from '../assets/icons/instagram.svg'
 const ContactUs = () => {
     return ( 
     <div className="contact container-fluid">
-        <div className="row">
+        <div className="row connect">
             <div className="col-6">
                 <div className="main">
                     

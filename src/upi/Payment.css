@@ -3,7 +3,7 @@
 .container-fluid{
     height:100vh
 }
-.row{
+.row.payment{
     height: 100%;
     position: relative;
 }

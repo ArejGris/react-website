@@ -7,6 +7,7 @@ import HomePage from './home/HomePage'
 import ContactUs from './contactus/ContactUs'
 import PaymentPage from './pay/PaymentPage'
 import Payment from './upi/Payment'
+import About from './about/About'
 function App() {
   return (
     <div className="app">
@@ -19,6 +20,7 @@ function App() {
     <Route path='/contact' element={<ContactUs/>} />
     <Route path='/pay' element={<PaymentPage/>}/>
     <Route path='/payui' element={<Payment/>} />
+    <Route path='/about' element={<About/>}/>
    </Routes>
    </BrowserRouter>
     </div>

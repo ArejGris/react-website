@@ -4,7 +4,7 @@ import './Payment.css'
 const Payment = () => {
     return ( 
     <div className="container-fluid">
-        <div className="row">
+        <div className="row payment">
             <div className="head"><h1>Payment with Paytm & UPI</h1></div>
             <div className="col-5">
                 <div className="up">
