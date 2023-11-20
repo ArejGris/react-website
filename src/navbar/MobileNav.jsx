@@ -7,8 +7,8 @@ const MobileNav = () => {
     console.log("this is the page",page,isHome)
     
     return (
-        <div className="myNav">
-        <div className="logo"><Link to="/">logo</Link></div>
+        <div className={isHome?'myNav1':'myNav2'}>
+        <div className={isHome?'logo1':'logo2'}><Link to="/">logo</Link></div>
         <ul className="nav1">
             <li><Link to="/about">About us</Link></li>
             <li><Link to="/">FAQ’S</Link></li>
