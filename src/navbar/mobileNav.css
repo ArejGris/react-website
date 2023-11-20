@@ -1,0 +1,32 @@
+.logo{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background: #EAD9C2;
+    transform: translate(0,-5%);
+}
+.myNav{
+    top: 20px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background: #987F7380;
+}
+.myNav .nav1{
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myNav .nav1 li{
+    margin-left: 5px;
+}
+.myNav .nav1 a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

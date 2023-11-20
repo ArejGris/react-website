@@ -1,19 +1,15 @@
-import img2 from '../assets/rowan-heuvel-sAB4BWrQ4Y4-unsplash 1 (3).png'
-import './sign.css'
 import { Link } from 'react-router-dom';
-const SignUp = () => {
+import logoSign from '../assets/icons/frame.png'
+import './mobilesign.css'
+const MobileSign = () => {
     return ( 
-        <div className="sign">
-             <div className="container-fluid">
-        <div className="row sign-sec">
-            <div className="col-7 ">
-                <div className="img2">
-                    <h1 className="hh1">welcome</h1>
-                <img  src={img2} alt="" />
-                </div>
+    <div className="mysign">
+        <div className="sign-up-mobile">
+            <div className="sign-logo">
+                <img src={logoSign} alt="" />
+
             </div>
-            <div className="col-5">
-                <form className='form2'>
+            <form className='form-sign'>
                     
                     <h1>sign up</h1>
                     <div className="form-group">
@@ -48,13 +44,9 @@ const SignUp = () => {
                     </div>
 
                 </form>
-
-            </div>
         </div>
-    </div>
 
-        </div>
-    );
+    </div> );
 }
  
-export default SignUp;
+export default MobileSign;
